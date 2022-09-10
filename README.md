@@ -1,6 +1,6 @@
 # MSI-B460M-WIFI-EFI
-微星B460m WIFI版黑苹果系统 Catalina 10.15.7
-hackintosh: OpenCore + MSI B460M Mortar WIFI + i7 10700 + 5500XT
+微星B460m WIFI版黑苹果系统 Catalina 10.15.7 
+hackintosh: OpenCore + MSI B460M Mortar WIFI（AX200） + i7 10700 + 5500XT
 
 UPDATE:
 - 2022-09-10：升级 macOS 10.15.7 & OpenCore 0.8.1，尚未发现问题
@@ -11,7 +11,7 @@ UPDATE:
 | 配置 | 型号 | 价格 | 渠道 |
 | ---- | ---- | --- | --- | 
 | CPU | Intel i7 10700 | 1922 | 淘宝：祥云电脑散片 |
-| 主板 | 微星 MSI MAG B460M MORTAR（WiFi）| 677 | 京东自营 |
+| 主板 | 微星 MSI MAG B460M MORTAR（WiFi AX200）| 677 | 京东自营 |
 | 显卡 | 蓝宝石 RX 5500XT 8G 白金版 | *** | 咸鱼 |
 | 内存 | 美商海盗船(USCORSAIR) 3200MHz DDR4 16G * 2 | 827 | 京东自营 |
 | 固态 | 三星970 PRO | 1238 | 京东自营 |
@@ -22,10 +22,10 @@ UPDATE:
 
 
 ##
-+ [√] 睡眠 唤醒（没有过多测试，暂时没有太大问题）
-+ [√] 所有USB端口、USB3.0
-+ [√] 独显免驱
-+ [√] 板载声卡 （显示器内置声音安装SoundSource应用，亮度安装MonitorControl应用）
-+ [√] 板载网卡（正常）
-+ [√] 板载蓝牙（正常，定制USB端口，必须放开HS08。每一种机箱对应的端口不同，取舍不同。这边定制的端口参考图片）
-+ [x] Airdrop（不太会用，貌似不行）
++ [x] 睡眠 唤醒（没有过多测试，暂时没有太大问题）
++ [x] 所有USB端口、USB3.0
++ [x] 独显免驱
++ [x] 板载声卡 （显示器内置声音安装SoundSource应用，亮度安装MonitorControl应用）
++ [x] 板载网卡（正常）
++ [x] 板载蓝牙（正常，定制USB端口，必须放开HS08。每一种机箱对应的端口不同，取舍不同。这边定制的端口参考图片）
++ [x] Airdrop（貌似有问题，我暂时使用不多，有需求建议白果卡）
